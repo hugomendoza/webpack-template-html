@@ -1,0 +1,17 @@
+.banner {
+  display: flex;
+  background-color: aquamarine;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  &__title {
+    color: green;
+    margin: 560px;
+  }
+  @media (min-width: 500px) {
+    &__title {
+      color: yellow;
+    }
+  }
+}
